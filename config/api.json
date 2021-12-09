@@ -1,7 +1,7 @@
 {
   "clientId": "5bfde309-8d7c-455d-a04e-56969ac8d211",
   "redirectUri": "http://localhost",
-  "base": "/Public",
+  "base": "/Paradise Lost",
   "authApi": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
   "driveApi": "https://graph.microsoft.com/v1.0/me/drive"
 }
