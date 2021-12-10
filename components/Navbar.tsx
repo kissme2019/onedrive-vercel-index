@@ -53,29 +53,6 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center">
-          <a
-            href={siteConfig.contact.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:bg-gray-200 dark:text-white dark:hover:bg-gray-700 p-2 rounded"
-          >
-            <FontAwesomeIcon icon={['fab', 'github']} size="lg" />
-          </a>
-          <a
-            href={siteConfig.contact.telegram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:bg-gray-200 dark:text-white dark:hover:bg-gray-700 p-2 rounded"
-          >
-            <FontAwesomeIcon icon={['fab', 'telegram-plane']} size="lg" />
-          </a>
-          <a
-            href={siteConfig.contact.email}
-            className="hover:bg-gray-200 dark:text-white dark:hover:bg-gray-700 p-2 rounded"
-          >
-            <FontAwesomeIcon icon={['far', 'envelope']} size="lg" />
-          </a>
-
           {tokenPresent && (
             <button
               className="hover:bg-gray-200 dark:text-white dark:hover:bg-gray-700 flex items-center p-2 space-x-2 rounded"
